@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CarMarket</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- MENU -->
+  <header class="header" id="inicio">
+    <div class="navbar-container" >
+      <div class="logo">
+        <a href="index.html">Car<span class="market">Market</span></a>
+      </div>
+      <nav class="menu">
+        <a href="#top">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#inventario">Inventario</a>
+        <a href="#contacto">Contáctanos</a>
+      </nav>
+    </div>
+  </header>
+  <!-- CARRUSEL INICIO -->
+  <section id="carrusel" class="home">
+    <div class="video-carousel">
+      <video class="carousel-video active" autoplay muted loop playsinline>
+        <source src="./video/1.mp4" type="video/mp4">
+      </video>
+      <video class="carousel-video" autoplay muted loop playsinline>
+        <source src="./video/2.mp4" type="video/mp4">
+      </video>
+      <video class="carousel-video" autoplay muted loop playsinline>
+        <source src="./video/3.mp4" type="video/mp4">
+      </video>
+      <video class="carousel-video" autoplay muted loop playsinline>
+        <source src="./video/4.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="overlay"></div>
+    <article class="hero-image custom-hero-image">
+      <aside class="hero-opacity custom-hero-opacity">
+        <div class="hero-content">
+          <h2 class="hero-title">
+            Modelos 2025<br>
+            Nissan, Toyota y Hyundai
+          </h2>
+          <p class="promo">Financiación al 0% durante 60 meses</p>
+          <p class="subpromo">Para compradores calificados con crédito aprobado por NMAC</p>
+          <a href="index3.html" class="btn">CONTÁCTAME</a>
+        </div>
+      </aside>
+    </article>
+  </section>
+<!-- NOSOTROS -->
+  <section id="nosotros" class="nosotros-section">
+    <div class="nosotros-contenido">
+      <div class="info-empresa">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos <strong>CarMarket</strong>, una empresa líder en la venta de autos nuevos y seminuevos, comprometidos con la excelencia y la satisfacción de nuestros clientes. Ofrecemos una amplia gama de vehículos de las mejores marcas, con atención personalizada y asesoría profesional para que encuentres el auto ideal para ti y tu familia.</p>
+        <div class="valores">
+          <div class="valor">
+            <h3>Visión</h3>
+            <p>Ser la empresa de referencia en el sector automotriz, reconocida por la calidad de nuestros servicios y la confianza de nuestros clientes.</p>
+          </div>
+          <div class="valor">
+            <h3>Misión</h3>
+            <p>Brindar soluciones de movilidad innovadoras, seguras y accesibles, superando las expectativas de quienes confían en nosotros.</p>
+          </div>
+        </div>
+      </div>
+      <div class="info-extra">
+        <div class="logo-empresa">
+          <img src="./img/logo1.png" alt="Logo CarMarket">
+        </div>
+        <div class="mapa-ubicacion">
+          <h3>Ubicación</h3>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d492.5910560470211!2d-79.57935851994675!3d8.99711593161695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca7cb2d430583%3A0x11f80e694f978561!2sCentro%20de%20Tecnolog%C3%ADas%20de%20Informaci%C3%B3n%20y%20Comunicaci%C3%B3n%20INADEH-India!5e0!3m2!1ses!2spa!4v1760547252823!5m2!1ses!2spa" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- INVENTARIO -->
+  <!-- Título section Autos -->
+  <section class="titulo-modelos" id="inventario">
+    <div class="titulo-texto">
+      <span class="subtitulo">Conoce nuestros</span>
+      <h1 class="titulo-principal">modelos</h1>
+    </div>
+    <nav class="modelo-menu">
+      <a href="#">SUVs</a>
+      <a href="#">Sedanes</a>
+      <a href="#">Compactos</a>
+      <a href="#">Comerciales</a>
+    </nav>
+  </section>
+  <!-- Título section Autos -->
+  <div class="inventario-layout">
+    <!-- Columna lateral: filtros -->
+    <aside class="filtro-sidebar">
+      <div class="filtro-header">
+        <h2>Filtros</h2>
+        <button class="btn-limpiar">Limpiar todo</button>
+      </div>
+      <div class="filtro-bloque">
+        <button class="filtro-titulo" type="button">
+          Marca
+          <span class="icono">▼</span>
+        </button>
+        <ul class="filtro-lista">
+          <li><label><input type="checkbox"> Audi <span>(1)</span></label></li>
+          <li><label><input type="checkbox"> GAC <span>(1)</span></label></li>
+          <li><label><input type="checkbox"> Geely <span>(13)</span></label></li>
+          <li><label><input type="checkbox"> Honda <span>(1)</span></label></li>
+          <li><label><input type="checkbox"> Hyundai <span>(38)</span></label></li>
+        </ul>
+      </div>
+      <div class="filtro-bloque">
+        <button class="filtro-titulo" type="button">
+          Categoría
+          <span class="icono">▼</span>
+        </button>
+        <ul class="filtro-lista">
+          <li><label><input type="checkbox"> SUV</label></li>
+          <li><label><input type="checkbox"> Sedán</label></li>
+          <li><label><input type="checkbox"> Pick-up</label></li>
+        </ul>
+      </div>
+      <div class="filtro-bloque">
+        <button class="filtro-titulo" type="button">
+          Año
+          <span class="icono">▼</span>
+        </button>
+        <ul class="filtro-lista">
+          <li><label><input type="checkbox"> 2024</label></li>
+          <li><label><input type="checkbox"> 2023</label></li>
+          <li><label><input type="checkbox"> 2022</label></li>
+        </ul>
+      </div>
+      <div class="filtro-bloque">
+        <button class="filtro-titulo" type="button">
+          Ubicación
+          <span class="icono">▼</span>
+        </button>
+        <ul class="filtro-lista">
+          <li><label><input type="checkbox"> Panamá</label></li>
+          <li><label><input type="checkbox"> Santiago</label></li>
+          <li><label><input type="checkbox"> Chiriquí</label></li>
+        </ul>
+      </div>
+    </aside>
+    <!-- Contenedor principal de cards -->
+    <main class="card-grid">
+      <!-- CARDS -->
+      <div class="auto-card">
+        <div class="card-img">
+          <img src="./img/audi.png" alt="Auto">
+        </div>
+        <div class="card-precio">$53,798.00</div>
+        <div class="card-descripcion">Audi RS Q8</div>
+        <div class="card-info">
+          <span>40618km</span>
+          <button class="btn-cotizar" data-auto="Audi RS Q8">Cotizar</button>
+          <span>Automático</span>
+        </div>
+      </div>
+      <!-- CARDS -->
+      <div class="auto-card">
+        <div class="card-img">
+          <img src="./img/honda.jpg" alt="Auto">
+        </div>
+        <div class="card-precio">$33,798.00</div>
+        <div class="card-descripcion">Honda CR-V EXL AWD</div>
+        <div class="card-info">
+          <span>40618km</span>
+          <button class="btn-cotizar" data-auto="Honda CR-V EXL AWD">Cotizar</button>
+          <span>Automático</span>
+        </div>
+      </div>
+      <!-- CARDS -->
+      <div class="auto-card">
+        <div class="card-img">
+          <img src="./img/Geely.png" alt="Auto">
+        </div>
+        <div class="card-precio">$23,798.00</div>
+        <div class="card-descripcion">Geely Starray </div>
+        <div class="card-info">
+          <span>40618km</span>
+          <button class="btn-cotizar" data-auto="Geely Starray">Cotizar</button>
+          <span>Automático</span>
+        </div>
+      </div>
+      <!-- CARDS -->
+      <div class="auto-card">
+        <div class="card-img">
+          <img src="./img/tucson.png" alt="Auto">
+        </div>
+        <div class="card-precio">$23,798.00</div>
+        <div class="card-descripcion">Hyundai Tucson</div>
+        <div class="card-info">
+          <span>40618km</span>
+          <button class="btn-cotizar" data-auto="Hyundai Tucson">Cotizar</button>
+          <span>Automático</span>
+        </div>
+      </div>
+          <!-- CARDS -->
+      <div class="auto-card">
+        <div class="card-img">
+          <img src="./img/Frontier.jpg" alt="Auto">
+        </div>
+        <div class="card-precio">$23,798.00</div>
+        <div class="card-descripcion">NISSAN NP300 FRONTIER</div>
+        <div class="card-info">
+          <span>40618km</span>
+          <button class="btn-cotizar" data-auto="NISSAN NP300 FRONTIER">Cotizar</button>
+          <span>Automático</span>
+        </div>
+      </div>
+              <!-- CARDS -->
+      <div class="auto-card">
+        <div class="card-img">
+          <img src="./img/Fortuner.png" alt="Auto">
+        </div>
+        <div class="card-precio">$73,798.00</div>
+        <div class="card-descripcion">TOYOTA FORTUNER</div>
+        <div class="card-info">
+          <span>40618km</span>
+          <button class="btn-cotizar" data-auto="TOYOTA FORTUNER">Cotizar</button>
+          <span>Automático</span>
+        </div>
+      </div>
+              <!-- CARDS -->
+      <div class="auto-card">
+        <div class="card-img">
+          <img src="./img/cybertruck.png" alt="Auto">
+        </div>
+        <div class="card-precio">$103,798.00</div>
+        <div class="card-descripcion">TESLA Cybertruck</div>
+        <div class="card-info">
+          <span>40618km</span>
+          <button class="btn-cotizar" data-auto="TESLA Cybertruck">Cotizar</button>
+          <span>Automático</span>
+        </div>
+      </div>
+              <!-- CARDS -->
+      <div class="auto-card">
+        <div class="card-img">
+          <img src="./img/HyundaiAccent.jpg" alt="Auto">
+        </div>
+        <div class="card-precio">$13,798.00</div>
+        <div class="card-descripcion">Hyundai Accent</div>
+        <div class="card-info">
+          <span>40618km</span>
+          <button class="btn-cotizar" data-auto="Hyundai Accent">Cotizar</button>
+          <span>Automático</span>
+        </div>
+      </div>
+              <!-- CARDS -->
+      <div class="auto-card">
+        <div class="card-img">
+          <img src="./img/Nissan_Kicks_2025.jpg" alt="Auto">
+        </div>
+        <div class="card-precio">$15,798.00</div>
+        <div class="card-descripcion">Nissan Kicks</div>
+        <div class="card-info">
+          <span>40618km</span>
+          <button class="btn-cotizar" data-auto="Nissan Kicks">Cotizar</button>
+          <span>Automático</span>
+        </div>
+      </div>
+              <!-- CARDS -->
+      <div class="auto-card">
+        <div class="card-img">
+          <img src="./img/KIAPICANTO.jpg" alt="Auto">
+        </div>
+        <div class="card-precio">$10,598.00</div>
+        <div class="card-descripcion">KIA PICANTO</div>
+        <div class="card-info">
+          <span>40618km</span>
+          <button class="btn-cotizar" data-auto="KIA PICANTO">Cotizar</button>
+          <span>Automático</span>
+        </div>
+      </div>
+              <!-- CARDS -->
+      <div class="auto-card">
+        <div class="card-img">
+          <img src="./img/Rav4.png" alt="Auto">
+        </div>
+        <div class="card-precio">$23,798.00</div>
+        <div class="card-descripcion">TOYOTA Rav4</div>
+        <div class="card-info">
+          <span>40618km</span>
+          <button class="btn-cotizar" data-auto="TOYOTA Rav4">Cotizar</button>
+          <span>Automático</span>
+        </div>
+      </div>
+              <!-- CARDS -->
+      <div class="auto-card">
+        <div class="card-img">
+          <img src="./img/KIASPORTAGE.png" alt="Auto">
+        </div>
+        <div class="card-precio">$27,798.00</div>
+        <div class="card-descripcion">Kia Sportage</div>
+        <div class="card-info">
+          <span>40618km</span>
+          <button class="btn-cotizar" data-auto="Kia Sportage">Cotizar</button>
+          <span>Automático</span>
+        </div>
+      </div>
+    </main>
+  </div>
+<!-- Modal Cotizar -->
+<div class="modal" id="modalCotizar">
+  <div class="modal-contenido">
+    <button class="modal-cerrar" id="cerrarModal">&times;</button>
+    <h2>Solicitar Cotización</h2>
+    <p id="autoSeleccionado" class="auto-seleccionado"></p>
+    <form id="form">
+      <div class="form-grupo">
+        <label>Nombre completo</label>
+        <input type="text" name="nombre" required>
+      </div>
+      <div class="form-grupo">
+        <label>Correo electrónico</label>
+        <input type="email" name="email" required>
+      </div>
+      <div class="form-grupo">
+        <label>Teléfono</label>
+        <input type="tel" name="telefono" required>
+      </div>
+      <div class="form-grupo">
+        <label>Mensaje</label>
+        <textarea name="mensaje" rows="3" placeholder="Escribe tu consulta..."></textarea>
+      </div>
+      <button type="submit" class="btn-enviar">Enviar cotización</button>
+    </form>
+  </div>
+</div>
+<section class="contacto-section" id="contacto">
+  <div class="contacto-container">
+    
+    <!-- Formulario -->
+    <div class="contacto-form">
+      <h2>Contáctenos</h2>
+      <p>Nos encantan las conversaciones. ¡Déjanos un mensaje!</p>
+      <form id="formContacto">
+        <input type="text" placeholder="Ingrese su nombre" required>
+        <input type="email" placeholder="Ingrese su correo" required>
+        <textarea placeholder="Describa sus consultas" rows="5" required></textarea>
+        <button type="submit">Enviar Mensaje</button>
+      </form>
+    </div>
+    <!-- Imagen -->
+    <div class="contacto-imagen">
+      <img src="./img/contacto.png" alt="Equipo de atención">
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-logos">
+      <img src="./img/logo1.png" alt="CarMarket" class="logo-footer" />
+      <img src="./img/patrocinador.png" alt="Patrocinador" class="logo-patrocinador" />
+    </div>
+    <div class="footer-links">
+      <div class="links-col">
+        <a href="#">Nuestros modelos</a>
+        <a href="#">Noticias</a>
+        <a href="#">Worldwide</a>
+      </div>
+      <div class="links-col">
+        <a href="#">Servicios</a>
+        <a href="#">Acerca de</a>
+        <a href="#">Preguntas frecuentes</a>
+      </div>
+    </div>
+    <div class="footer-social">
+      <h3>Síguenos</h3>
+      <div class="social-icons">
+        <a href="#" aria-label="TikTok"><img src="./img/social/tiktok.png" alt="TikTok" class="social-icon" /></a>
+        <a href="#" aria-label="Facebook"><img src="./img/social/facebook.png" alt="Facebook" class="social-icon" /></a>
+        <a href="#" aria-label="Instagram"><img src="./img/social/instagram.png" alt="Instagram" class="social-icon" /></a>
+        <a href="#" aria-label="Twitter"><img src="./img/social/twitter.png" alt="Twitter" class="social-icon" /></a>
+        <a href="#" aria-label="YouTube"><img src="./img/social/youtube.png" alt="YouTube" class="social-icon" /></a>
+        <a href="#" aria-label="WhatsApp"><img src="./img/social/whatsapp.png" alt="WhatsApp" class="social-icon" /></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-legal">
+      <a href="#">Términos y Condiciones</a>
+      <a href="#">Política de Cookies</a>
+      <span>© Derechos de autor CarMarket Company 2025. Todos los derechos reservados.</span>
+    </div>
+  </div>
+</footer>
+  <script>
+    const videos = document.querySelectorAll('.carousel-video');
+    let currentIndex = 0;
+    setInterval(() => {
+      videos[currentIndex].classList.remove('active');
+      currentIndex = (currentIndex + 1) % videos.length;
+      videos[currentIndex].classList.add('active');
+    }, 8000); // Cambia cada 8 segundos
+  </script>
+  <script src="./js/modal.js"></script>
+</body>
+</html>
